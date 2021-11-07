@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.tic_tac_toe {
+    width: 430px;
+    height: 400px;
+    color: #000;
+}
+
+.group {
+    display: flex;
+}
+
+.column {
+    border: 1px solid black;
+    width: 133px;
+    height: 133px;
+    margin: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 4rem;
+}
